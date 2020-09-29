@@ -1,0 +1,31 @@
+.bgimage{
+    background-image: url('../images/Chicago.jpg');
+    background-position: center;
+    background-size: cover;  
+    height: 200px;
+}
+
+
+.imgB{
+    margin: 0px auto;
+    width: 150px;
+    height: 150px;
+    display: block;
+    padding-top: 10px;
+}
+.items{
+    text-align: center;
+}
+@media(min-width:1200px)
+{
+    .imgB{
+        margin: 0px auto;
+        width: 90px;
+        height: 90px;
+        display: block;
+        padding-top: 10px;
+    }
+    .items{
+        text-align: left;
+    }
+}
