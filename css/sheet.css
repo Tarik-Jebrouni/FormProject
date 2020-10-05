@@ -20,6 +20,11 @@ h1{
     display: block;
     padding-top: 10px;
 }
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
 .items{
     text-align: center;
 }
